@@ -18,28 +18,34 @@
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+*Execute creating a calculated column based on provided columns*
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
-You can look at the same [exercise]([url](https://campus.datacamp.com/courses/case-study-analyzing-customer-churn-in-tableau/exploratory-analysis-1?ex=4)) from the Case Study: Analyzing Customer Churn in Tableau on how to write a good context.
+*Say Hello to your data.  The same way we introduce ourselves when we meet someone for the first time, with questions like how are you and where are you from? Getting to know our data is critical to performing a great analysis everytime.  In this exercise, we will import our data into power BI, examine the tables and extend the columns we have by creating a calculated column.*
 
 #### Steps to be executed by the student (max 6)
 
 *Each bulleted instruction is a complete sentence that describes a specific task.*
 
-- Step 1
-- Step 2
-- Step 3
-- ...
+- Get the Crypto_Dim_Names.csv and Crypto_FactTable_Purchases.csv files from the datasets folder.
+- Inspect both tables in the “data” view to ensure both imported correctly
+- Switch to the “model” view to ensure both are connected with the proper relationship
+- Rename these two columns to make them easier to understand: “CURRENT_WORTH” to “CURRENT_PRICE” and “DATE” to “PURCHASE_DATE”
+- Create a Calculated Column “CURRENT_VALUE” by multiplying “QUANTITY_PURCHASED” and  “CURRENT_PRICE”
+
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+*What is the “CURRENT_VALUE” of the coin with symbol LTC and a “PURCHASE_DATE” of 4/15/2018?
+- A. 20.7893421199045
+- B. 15.1486365045558
+- C. 93.4215691451990
+- D. 21.9728650982986
+*
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+![image](https://user-images.githubusercontent.com/19144732/171630541-45341a31-bb57-408c-af3d-c9ce24367a2e.png)
 
 ## Finalized Workbook
 
