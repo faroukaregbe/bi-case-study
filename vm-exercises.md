@@ -54,14 +54,14 @@ Workbook has been uploaded.
 
 #### Explanation & Description
 Which answers will the learner be able to solve once building this? How does it fit in the bigger picture?
-Learners will be able to put their knowledge of power BI and data Analysis to the test by answering the following questions:
+Learners will begin to translate data analysis to answering a business question which is at the core of every data analysis project.
+Learners will be able to put their knowledge of Power BI and Data Analysis to the test by answering the following questions:
 1) Which purchase strategy performed better?
 2) What was the profit from Bitcoin based on one-time vs weekly?
 3) What was the return on investment on litecoin based on one-time vs weekly?
-From the exercises they will begin to translate data analysis to answering a business question which is at the core of every data analysis project.
 
 
 #### End goal:
-![image](https://user-images.githubusercontent.com/19144732/172293716-c14fd107-4455-4d7b-b000-8b59f7daa480.png)
+![image](https://user-images.githubusercontent.com/19144732/172295777-71e96409-a139-45ae-a1c8-a87c167b4559.png)
 
 *Add an image of the final visualization here.*
